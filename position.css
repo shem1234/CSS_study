@@ -1,0 +1,39 @@
+.relative {
+    background-color: skyblue;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    *right: 100px;
+    *top: 100px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute2 {
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
+
+.absolute3 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.absolute4 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+h1{
+    position: fixed;
+    top: 150px
+}
